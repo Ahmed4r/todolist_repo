@@ -14,6 +14,7 @@ class TodoList extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routename,
       routes: {HomeScreen.routename: (context) => HomeScreen()},
+      home: HomeScreen(),
     );
   }
 }
