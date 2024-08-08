@@ -11,7 +11,7 @@ class TodoList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routename,
       routes: {HomeScreen.routename: (context) => HomeScreen()},
       home: HomeScreen(),
